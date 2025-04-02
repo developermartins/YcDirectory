@@ -11,7 +11,7 @@ export default async function Home({ searchParams }: {
     {
       _createdAt: new Date(),
       views: 55,
-      author: { _id: 1 },
+      author: { _id: 1, name: 'Martins' },
       _id: 1,
       description: "Creative description",
       image: "https://unsplash.com/pt-br/fotografias/foto-wall-e-OI1ToozsKBw",
