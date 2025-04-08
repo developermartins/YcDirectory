@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react';
+import React, { useActionState, useState } from 'react';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import MDEditor from '@uiw/react-md-editor';
@@ -11,8 +11,16 @@ const StartupForm = () => {
 
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [pitch, setPitch] = useState('');
+  
+  const handleFormSubmit = () => {}
 
-  const isPending = false;
+  const [state, formAction, isPending] = useActionState(handleFormSubmit,
+    initialState: {
+      error: "",
+      status: "INITIAL"
+    }
+  );
+
 
   return (
     <form
