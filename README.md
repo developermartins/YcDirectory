@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://yc-directory-vert-ten.vercel.app/" target="_blank">
-      <img src="https://drive.google.com/file/d/1rRM6iWuQBtSpJTbdwgd8rdDsJ-YZTDm0/view?usp=sharing" alt="Project Banner">
+      <img src="https://photos.app.goo.gl/7G1Tz7tM4eXkEpy46" alt="Project Banner">
     </a>
   <br />
 
